@@ -5,7 +5,7 @@ namespace DesignPatterns.Strategy.Gud
 {
     public class Mathinator : IDisposable
     {
-        public double MathinateAverage(List<double> values, IMathinatorMethod mathinatingMethod)
+        public double Mathinate(List<double> values, IMathinatorMethod mathinatingMethod)
         {
             return mathinatingMethod.MathinateFor(values);
         }

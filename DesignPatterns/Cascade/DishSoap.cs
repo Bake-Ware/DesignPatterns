@@ -61,7 +61,7 @@ namespace DesignPatterns.Cascade
         }
         private double Average(IMathinatorMethod method)
         {
-            return new Mathinator().MathinateAverage(_list, method);
+            return new Mathinator().Mathinate(_list, method);
         }
 
         #region Factory Support

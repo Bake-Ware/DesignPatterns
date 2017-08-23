@@ -42,8 +42,8 @@ namespace DesignPatterns
             foreach (var turk in thisATurkeyYo.OrderBy(x => x).ToList())
                 Console.Write(turk + " ");
             Console.Write("\n");
-            Console.WriteLine("  Median Turkey: " + gudinator.MathinateAverage(thisATurkeyYo, new Medianator()));
-            Console.WriteLine("Mean Ass Turkey: " + gudinator.MathinateAverage(thisATurkeyYo, new Meaninator()));
+            Console.WriteLine("  Median Turkey: " + gudinator.Mathinate(thisATurkeyYo, new Medianator()));
+            Console.WriteLine("Mean Ass Turkey: " + gudinator.Mathinate(thisATurkeyYo, new Meaninator()));
             Console.WriteLine("\n");
 
             #endregion
