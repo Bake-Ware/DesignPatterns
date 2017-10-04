@@ -43,6 +43,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cascade\DishSoap.cs" />
+    <Compile Include="Command\ICommand.cs" />
+    <Compile Include="Command\LogToDatabaseCommand.cs" />
+    <Compile Include="Command\LogToFileCommand.cs" />
     <Compile Include="Factory\Bad\DishSoapFactory.cs" />
     <Compile Include="Factory\Gud\DishSoapFactory.cs" />
     <Compile Include="Factory\Gud\Models\DefaultDishSoap.cs" />
@@ -50,6 +53,7 @@
     <Compile Include="Factory\Gud\Models\WebDishSoap.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Singleton\Logger.cs" />
     <Compile Include="Strategy\Bad\Mathinator.cs" />
     <Compile Include="Strategy\Gud\IMathinatorMethod.cs" />
     <Compile Include="Strategy\Gud\Mathinator.cs" />

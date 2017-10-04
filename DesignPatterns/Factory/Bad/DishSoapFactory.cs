@@ -10,7 +10,7 @@ namespace DesignPatterns.Factory.Bad
         {
             string webStats;
             using (var wc = new System.Net.WebClient())
-                webStats = wc.DownloadString("http://bakewarez.com:666/turkeyStats.csv");
+                webStats = wc.DownloadString("http://bake.systems/turkeyStats.csv");
             return webStats.Split(',').Select(x => double.Parse(x)).ToList();
         }
         public static Cascade.DishSoap LoadDishSoap()
